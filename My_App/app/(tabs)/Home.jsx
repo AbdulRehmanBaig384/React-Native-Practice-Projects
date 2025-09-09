@@ -3,13 +3,13 @@
 // import { Button } from '@react-navigation/elements'
 // import Profile from './Profile'
 // export default function Home({navigation}) {
-//   return (
-//     <View style={{width:'100%', height:'100%', justifyContent:'center', alignItems:'center'}}>
-//       <Text style={{fontSize:20,fontWeight:'500',marginBottom:10}}>Home</Text>
-//       <Button title='Profile' onPress={()=>navigation.navigate("Profile")}/>
-//     </View>
-//   )
-// }
+  return (
+    <View style={{width:'100%', height:'100%', justifyContent:'center', alignItems:'center'}}>
+      <Text style={{fontSize:20,fontWeight:'500',marginBottom:10}}>Home</Text>
+      <Button title='Profile' onPress={()=>navigation.navigate("Profile")}/>
+    </View>
+  )
+}
 
 
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";

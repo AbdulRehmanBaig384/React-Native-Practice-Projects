@@ -24,13 +24,11 @@ export default function Search() {
   return (
     
     <View style={styles.container}>
-      <TextInput style={styles.searchBox} placeholder=" Search here..."  value={query}
-        onChangeText={setQuery}
-      />
+      
+      <TextInput style={styles.searchBox} placeholder=" Search here..."  value={query} onChangeText={setQuery} />
 
-      <FlatList
-        data={filteredData}
-        keyExtractor={(item, index) => index.toString()}
+      <FlatList data={filteredData}  keyExtractor={(item, index) => index.toString()}
+        
         renderItem={({ item }) => <Text style={styles.item}>{item}</Text>}
       />
     </View>

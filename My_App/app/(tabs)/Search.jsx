@@ -22,7 +22,7 @@ export default function Search() {
     <View style={styles.container}>
       <TextInput
         style={styles.searchBox}
-        placeholder="🔍 Search here..."
+        placeholder=" Search here..."
         value={query}
         onChangeText={setQuery}
       />

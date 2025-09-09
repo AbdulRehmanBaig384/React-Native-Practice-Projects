@@ -24,9 +24,7 @@ export default function Search() {
   return (
     
     <View style={styles.container}>
-      <TextInput style={styles.searchBox}
-        placeholder=" Search here..."
-        value={query}
+      <TextInput style={styles.searchBox} placeholder=" Search here..."  value={query}
         onChangeText={setQuery}
       />
 

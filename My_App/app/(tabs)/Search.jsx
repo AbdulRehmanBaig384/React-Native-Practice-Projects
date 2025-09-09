@@ -1,4 +1,5 @@
 import { View, TextInput, FlatList, Text, StyleSheet } from "react-native";
+
 import React, { useState } from "react";
 
 const sampleData = [
@@ -12,16 +13,18 @@ const sampleData = [
 ];
 
 export default function Search() {
+  
   const [query, setQuery] = useState("");
 
   const filteredData = sampleData.filter((item) =>
+    
     item.toLowerCase().includes(query.toLowerCase())
   );
 
   return (
+    
     <View style={styles.container}>
-      <TextInput
-        style={styles.searchBox}
+      <TextInput style={styles.searchBox}
         placeholder=" Search here..."
         value={query}
         onChangeText={setQuery}

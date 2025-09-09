@@ -21,13 +21,12 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🏠 Welcome Home!</Text>
+      <Text style={styles.title}> Welcome Home!</Text>
       <Text style={styles.subtitle}>This is your home screen.</Text>
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => router.push("/Profile")}
-      >
+        onPress={() => router.push("/Profile")}>
         <Text style={styles.buttonText}>Go to Profile</Text>
       </TouchableOpacity>
 

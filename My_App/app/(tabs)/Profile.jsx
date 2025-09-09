@@ -26,7 +26,7 @@ export default function Profile() {
         style={styles.avatar}
       />
       <Text style={styles.name}>Abdul Rehman</Text>
-      <Text style={styles.bio}>💻 Software Engineering Student | MERN & Data Science Learner</Text>
+      <Text style={styles.bio}> Software Engineering Student | MERN & Data Science Learner</Text>
     </View>
   );
 }

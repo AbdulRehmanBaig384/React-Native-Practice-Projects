@@ -48,8 +48,6 @@
 //   )
 // }
 
-
-
 import { View, Text, TextInput } from 'react-native'
 import React from 'react' 
 import HomeScreen from './(tabs)'
@@ -86,6 +84,7 @@ export default function _layout(){
     </View>
   )
 }
+
 
 
 
